@@ -247,7 +247,7 @@ def Take_query():
                 #then this function searches on google for the query
                 a=query.split(" ")
                 c="+".join(a)
-                speak("Searching for your query")
+                speak("Searching for your query on Google")
                 webbrowser.open("https://www.google.com/search?q="+c)
         
         # this will exit and terminate the program        
